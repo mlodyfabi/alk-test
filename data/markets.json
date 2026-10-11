@@ -1,0 +1,347 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku.",
+  "currency": "USD",
+  "note": "Nazwy rynków są fikcyjne."
+ },
+ "segments": [
+  {
+   "id": "streaming",
+   "label": "Streaming"
+  },
+  {
+   "id": "physical",
+   "label": "Fizyczne"
+  },
+  {
+   "id": "download",
+   "label": "Pobieranie"
+  },
+  {
+   "id": "live",
+   "label": "Koncerty"
+  },
+  {
+   "id": "sync",
+   "label": "Sync"
+  }
+ ],
+ "markets": [
+  {
+   "id": "atlantia",
+   "label": "Atlantia",
+   "population_mln": 330,
+   "total_revenue_2025_mln": 32000,
+   "segments_2025": {
+    "streaming": 48,
+    "physical": 7,
+    "download": 2,
+    "live": 35,
+    "sync": 8
+   },
+   "streaming_share_history": [
+    {
+     "year": 2010,
+     "share": 4
+    },
+    {
+     "year": 2011,
+     "share": 6.2
+    },
+    {
+     "year": 2012,
+     "share": 9.5
+    },
+    {
+     "year": 2013,
+     "share": 13.4
+    },
+    {
+     "year": 2014,
+     "share": 17.6
+    },
+    {
+     "year": 2015,
+     "share": 22.2
+    },
+    {
+     "year": 2016,
+     "share": 27.1
+    },
+    {
+     "year": 2017,
+     "share": 32.2
+    },
+    {
+     "year": 2018,
+     "share": 37.6
+    },
+    {
+     "year": 2019,
+     "share": 43.1
+    },
+    {
+     "year": 2020,
+     "share": 48.9
+    },
+    {
+     "year": 2021,
+     "share": 54.8
+    },
+    {
+     "year": 2022,
+     "share": 60.9
+    },
+    {
+     "year": 2023,
+     "share": 67.1
+    },
+    {
+     "year": 2024,
+     "share": 73.5
+    },
+    {
+     "year": 2025,
+     "share": 80
+    }
+   ]
+  },
+  {
+   "id": "vistoria",
+   "label": "Vistoria",
+   "population_mln": 38,
+   "total_revenue_2025_mln": 1400,
+   "segments_2025": {
+    "streaming": 55,
+    "physical": 10,
+    "download": 3,
+    "live": 25,
+    "sync": 7
+   },
+   "streaming_share_history": [
+    {
+     "year": 2010,
+     "share": 1
+    },
+    {
+     "year": 2011,
+     "share": 3.3
+    },
+    {
+     "year": 2012,
+     "share": 6.6
+    },
+    {
+     "year": 2013,
+     "share": 10.5
+    },
+    {
+     "year": 2014,
+     "share": 14.8
+    },
+    {
+     "year": 2015,
+     "share": 19.5
+    },
+    {
+     "year": 2016,
+     "share": 24.4
+    },
+    {
+     "year": 2017,
+     "share": 29.6
+    },
+    {
+     "year": 2018,
+     "share": 35
+    },
+    {
+     "year": 2019,
+     "share": 40.6
+    },
+    {
+     "year": 2020,
+     "share": 46.5
+    },
+    {
+     "year": 2021,
+     "share": 52.4
+    },
+    {
+     "year": 2022,
+     "share": 58.6
+    },
+    {
+     "year": 2023,
+     "share": 64.9
+    },
+    {
+     "year": 2024,
+     "share": 71.4
+    },
+    {
+     "year": 2025,
+     "share": 78
+    }
+   ]
+  },
+  {
+   "id": "nordheim",
+   "label": "Nordheim",
+   "population_mln": 11,
+   "total_revenue_2025_mln": 1100,
+   "segments_2025": {
+    "streaming": 68,
+    "physical": 5,
+    "download": 1,
+    "live": 20,
+    "sync": 6
+   },
+   "streaming_share_history": [
+    {
+     "year": 2010,
+     "share": 12
+    },
+    {
+     "year": 2011,
+     "share": 14.4
+    },
+    {
+     "year": 2012,
+     "share": 17.8
+    },
+    {
+     "year": 2013,
+     "share": 21.9
+    },
+    {
+     "year": 2014,
+     "share": 26.3
+    },
+    {
+     "year": 2015,
+     "share": 31.2
+    },
+    {
+     "year": 2016,
+     "share": 36.3
+    },
+    {
+     "year": 2017,
+     "share": 41.7
+    },
+    {
+     "year": 2018,
+     "share": 47.3
+    },
+    {
+     "year": 2019,
+     "share": 53.2
+    },
+    {
+     "year": 2020,
+     "share": 59.2
+    },
+    {
+     "year": 2021,
+     "share": 65.5
+    },
+    {
+     "year": 2022,
+     "share": 71.9
+    },
+    {
+     "year": 2023,
+     "share": 78.4
+    },
+    {
+     "year": 2024,
+     "share": 85.1
+    },
+    {
+     "year": 2025,
+     "share": 92
+    }
+   ]
+  },
+  {
+   "id": "solandia",
+   "label": "Solandia",
+   "population_mln": 210,
+   "total_revenue_2025_mln": 2600,
+   "segments_2025": {
+    "streaming": 62,
+    "physical": 4,
+    "download": 6,
+    "live": 23,
+    "sync": 5
+   },
+   "streaming_share_history": [
+    {
+     "year": 2010,
+     "share": 0.5
+    },
+    {
+     "year": 2011,
+     "share": 2.6
+    },
+    {
+     "year": 2012,
+     "share": 5.6
+    },
+    {
+     "year": 2013,
+     "share": 9.1
+    },
+    {
+     "year": 2014,
+     "share": 13
+    },
+    {
+     "year": 2015,
+     "share": 17.2
+    },
+    {
+     "year": 2016,
+     "share": 21.6
+    },
+    {
+     "year": 2017,
+     "share": 26.3
+    },
+    {
+     "year": 2018,
+     "share": 31.2
+    },
+    {
+     "year": 2019,
+     "share": 36.3
+    },
+    {
+     "year": 2020,
+     "share": 41.5
+    },
+    {
+     "year": 2021,
+     "share": 46.9
+    },
+    {
+     "year": 2022,
+     "share": 52.5
+    },
+    {
+     "year": 2023,
+     "share": 58.2
+    },
+    {
+     "year": 2024,
+     "share": 64
+    },
+    {
+     "year": 2025,
+     "share": 70
+    }
+   ]
+  }
+ ]
+}
