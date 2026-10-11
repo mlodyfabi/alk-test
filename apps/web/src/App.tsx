@@ -31,61 +31,72 @@ function Shell() {
     setTab(t);
   };
   const key = artist?.id ?? 'none';
+  const num = String(TABS.indexOf(tab) + 1).padStart(2, '0');
 
   return (
     <>
+      <div className="bg-art" aria-hidden="true">
+        <span className="blob blob-a" />
+        <span className="blob blob-b" />
+        <span className="dots" />
+      </div>
       <div className="disclaimer-bar" role="note">
         <span aria-hidden="true">●</span> {pl.disclaimerBar}
       </div>
-      <header className="app-header">
-        <div className="brand">
-          <span className="brand-disc" aria-hidden="true" />
-          <div>
-            <h1>{pl.appName}</h1>
-            <p>{pl.tagline}</p>
-          </div>
+      <div className="layout">
+        <nav className="rail" aria-label={pl.nav.label}>
+          {TABS.map((t) => (
+            <button
+              key={t}
+              type="button"
+              className={tab === t ? 'active' : ''}
+              aria-current={tab === t ? 'page' : undefined}
+              onClick={() => go(t)}
+            >
+              <span className="rail-label">{pl.nav[t]}</span>
+            </button>
+          ))}
+        </nav>
+        <div className="content">
+          <header className="app-header">
+            <h1>
+              <span className="accent">Music</span>
+              <span>Money Lab</span>
+            </h1>
+            <div className="artist-picker">
+              <Select
+                label={pl.artist.label}
+                value={artist?.id ?? ''}
+                options={[
+                  { value: '', label: pl.artist.none },
+                  ...artistsData.artists.map((a) => ({
+                    value: a.id,
+                    label: `${a.name} · ${a.genre}`,
+                  })),
+                ]}
+                onChange={setArtistId}
+              />
+              <small>{pl.artist.hint}</small>
+            </div>
+          </header>
+          <p className="tagline">{pl.tagline}</p>
+          <main id="main" data-num={num}>
+            <div hidden={tab !== 'timeline'}>
+              <TimelineModule />
+            </div>
+            <div hidden={tab !== 'royalty'}>
+              <RoyaltyModule key={`r-${key}`} />
+            </div>
+            <div hidden={tab !== 'tour'}>
+              <TourModule key={`t-${key}`} />
+            </div>
+            <div hidden={tab !== 'market'}>
+              <MarketModule />
+            </div>
+          </main>
+          <footer className="app-footer">{pl.footer}</footer>
         </div>
-        <div className="artist-picker">
-          <Select
-            label={pl.artist.label}
-            value={artist?.id ?? ''}
-            options={[
-              { value: '', label: pl.artist.none },
-              ...artistsData.artists.map((a) => ({ value: a.id, label: `${a.name} · ${a.genre}` })),
-            ]}
-            onChange={setArtistId}
-          />
-          <small>{pl.artist.hint}</small>
-        </div>
-      </header>
-      <nav className="tabs" aria-label={pl.nav.label}>
-        {TABS.map((t) => (
-          <button
-            key={t}
-            type="button"
-            className={tab === t ? 'active' : ''}
-            aria-current={tab === t ? 'page' : undefined}
-            onClick={() => go(t)}
-          >
-            {pl.nav[t]}
-          </button>
-        ))}
-      </nav>
-      <main id="main">
-        <div hidden={tab !== 'timeline'}>
-          <TimelineModule />
-        </div>
-        <div hidden={tab !== 'royalty'}>
-          <RoyaltyModule key={`r-${key}`} />
-        </div>
-        <div hidden={tab !== 'tour'}>
-          <TourModule key={`t-${key}`} />
-        </div>
-        <div hidden={tab !== 'market'}>
-          <MarketModule />
-        </div>
-      </main>
-      <footer className="app-footer">{pl.footer}</footer>
+      </div>
     </>
   );
 }
