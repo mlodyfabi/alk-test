@@ -14,3 +14,4 @@
 - Currency PLN for royalty/tour, USD for the fictional markets.
 - Visual redesign (coral/blue gradient, wide-tracked condensed headings, vertical rail nav, outlined module numbers) follows a user-supplied reference image; Barlow Condensed loaded from Google Fonts with system fallbacks.
 - Text on the gradient sits on dark translucent backings so contrast stays WCAG AA; axe-core audit (wcag2a/aa, best-practice) reports 0 violations on all four tabs at 1366px and 390px.
+- Built app is committed in the repo root (index.html, assets/, .nojekyll) so Pages "Deploy from a branch" (main / root) works; publish-root.yml keeps it in sync with main using GITHUB_TOKEN pushes ([skip ci]).

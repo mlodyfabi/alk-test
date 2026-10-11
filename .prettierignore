@@ -3,3 +3,5 @@ node_modules
 data
 package-lock.json
 docs/PRD.md
+/index.html
+/assets
