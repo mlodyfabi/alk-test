@@ -8,3 +8,5 @@
 
 Rules: data is fictional only; UI strings go to `apps/web/src/i18n/pl.ts`; financial logic lives in
 `packages/core` with tests; new data fields need a schema update in `data/README.md`.
+
+The repo-root build (`index.html`, `assets/`) is generated: do not edit it by hand; CI refreshes it after merge (or run `npm run build:root`).

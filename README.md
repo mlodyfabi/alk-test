@@ -40,6 +40,10 @@ scripts/         validate-data
 
 ## Deploy
 
+GitHub Pages works from the repo root (**Settings -> Pages -> Deploy from a branch -> `main` / `/ (root)`**): `index.html`, `assets/` and `.nojekyll` in the root are the built app. After every push to `main`, `.github/workflows/publish-root.yml` rebuilds and commits them. Locally: `npm run build:root`.
+
+Alternative: `.github/workflows/deploy.yml` publishes via **Source: GitHub Actions** (use one mode, not both).
+
 `.github/workflows/deploy.yml` publishes to GitHub Pages on every push to `main`.
 One-time setup: repo **Settings -> Pages -> Source: GitHub Actions**.
 
