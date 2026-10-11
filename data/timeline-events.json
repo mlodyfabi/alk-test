@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku."
+ },
+ "events": [
+  {
+   "id": "e1",
+   "year": 1990,
+   "title": "Złota era kasety",
+   "description": "Walkman i kaseta dominują w codziennym słuchaniu."
+  },
+  {
+   "id": "e2",
+   "year": 1992,
+   "title": "CD wyprzedza kasetę",
+   "description": "Płyta kompaktowa staje się głównym nośnikiem w sklepach."
+  },
+  {
+   "id": "e3",
+   "year": 1995,
+   "title": "Szczyt sprzedaży CD",
+   "description": "Rekordowe wyniki fizycznych nośników."
+  },
+  {
+   "id": "e4",
+   "year": 1999,
+   "title": "Era P2P",
+   "description": "Wymiana plików w sieci uderza w sprzedaż płyt."
+  },
+  {
+   "id": "e5",
+   "year": 2003,
+   "title": "Sklep z plikami",
+   "description": "Legalne pobieranie utworów za kilka złotych."
+  },
+  {
+   "id": "e6",
+   "year": 2005,
+   "title": "Cyfra wyprzedza kasetę i winyl",
+   "description": "Download rośnie szybciej niż fizyki."
+  },
+  {
+   "id": "e7",
+   "year": 2008,
+   "title": "Pierwsze serwisy streamingowe",
+   "description": "Abonament zamiast własności płyty."
+  },
+  {
+   "id": "e8",
+   "year": 2010,
+   "title": "Streaming w Europie",
+   "description": "Serwisy wchodzą na kolejne rynki."
+  },
+  {
+   "id": "e9",
+   "year": 2012,
+   "title": "Powrót winyla",
+   "description": "Kolekcjonerzy i audiofile ratują nośnik."
+  },
+  {
+   "id": "e10",
+   "year": 2015,
+   "title": "Streaming przebija download",
+   "description": "Subskrypcje stają się głównym źródłem."
+  },
+  {
+   "id": "e11",
+   "year": 2017,
+   "title": "Playlisty jako gatekeeper",
+   "description": "Pozycja na playliście decyduje o zasięgu."
+  },
+  {
+   "id": "e12",
+   "year": 2020,
+   "title": "Koncerty zamknięte",
+   "description": "Pandemia odcina przychody z live, streaming rośnie."
+  },
+  {
+   "id": "e13",
+   "year": 2022,
+   "title": "Short video i muzyka",
+   "description": "Krótkie wideo napędza odkrywanie utworów."
+  },
+  {
+   "id": "e14",
+   "year": 2025,
+   "title": "Streaming ponad 80% rynku",
+   "description": "Dominacja subskrypcji i reklam, winyl jako nisza."
+  }
+ ]
+}

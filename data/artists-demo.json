@@ -1,0 +1,40 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku."
+ },
+ "artists": [
+  {
+   "id": "mira-vale",
+   "name": "Mira Vale",
+   "genre": "indie pop",
+   "monthly_streams": 250000,
+   "default_deal": "distribution",
+   "crew_preset": "duo",
+   "typical_venue_tier": "club",
+   "default_tour": "club-run",
+   "default_sell_through": 0.6
+  },
+  {
+   "id": "the-night-radio",
+   "name": "The Night Radio",
+   "genre": "alt rock",
+   "monthly_streams": 2000000,
+   "default_deal": "indie",
+   "crew_preset": "band",
+   "typical_venue_tier": "theatre",
+   "default_tour": "theatre-tour",
+   "default_sell_through": 0.75
+  },
+  {
+   "id": "kasper-nova",
+   "name": "Kasper Nova",
+   "genre": "pop",
+   "monthly_streams": 15000000,
+   "default_deal": "major",
+   "crew_preset": "full",
+   "typical_venue_tier": "arena",
+   "default_tour": "arena-night",
+   "default_sell_through": 0.85
+  }
+ ]
+}

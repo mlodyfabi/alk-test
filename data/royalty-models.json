@@ -1,0 +1,65 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku.",
+  "currency": "PLN"
+ },
+ "params": {
+  "gross_per_stream": 0.016,
+  "platform_cut": 0.3,
+  "recording_side_share": 0.6,
+  "cmo_fee": 0.12,
+  "manager_commission": 0.15
+ },
+ "stream_presets": [
+  {
+   "id": "emerging",
+   "label": "Debiutant",
+   "streams": 250000
+  },
+  {
+   "id": "rising",
+   "label": "Wschodząca gwiazda",
+   "streams": 2000000
+  },
+  {
+   "id": "established",
+   "label": "Ugruntowany artysta",
+   "streams": 15000000
+  },
+  {
+   "id": "hit",
+   "label": "Przebój sezonu",
+   "streams": 80000000
+  }
+ ],
+ "deals": [
+  {
+   "id": "major",
+   "label": "Major label",
+   "recording_artist_share": 0.18,
+   "publishing_artist_share": 0.5,
+   "advance": 400000
+  },
+  {
+   "id": "indie",
+   "label": "Wytwórnia niezależna",
+   "recording_artist_share": 0.5,
+   "publishing_artist_share": 0.7,
+   "advance": 60000
+  },
+  {
+   "id": "distribution",
+   "label": "Dystrybucja + serwis",
+   "recording_artist_share": 0.85,
+   "publishing_artist_share": 0.9,
+   "advance": 5000
+  },
+  {
+   "id": "self",
+   "label": "Self-release",
+   "recording_artist_share": 1,
+   "publishing_artist_share": 1,
+   "advance": 0
+  }
+ ]
+}

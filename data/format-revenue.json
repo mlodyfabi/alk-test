@@ -1,0 +1,426 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku.",
+  "unit": "mln PLN"
+ },
+ "formats": [
+  {
+   "id": "cassette",
+   "label": "Kaseta"
+  },
+  {
+   "id": "vinyl",
+   "label": "Winyl"
+  },
+  {
+   "id": "cd",
+   "label": "CD"
+  },
+  {
+   "id": "download",
+   "label": "Pobieranie"
+  },
+  {
+   "id": "streaming",
+   "label": "Streaming"
+  }
+ ],
+ "years": [
+  {
+   "year": 1990,
+   "values": {
+    "cassette": 3200,
+    "vinyl": 900,
+    "cd": 3800,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 7900
+  },
+  {
+   "year": 1991,
+   "values": {
+    "cassette": 3140,
+    "vinyl": 800,
+    "cd": 4840,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 8780
+  },
+  {
+   "year": 1992,
+   "values": {
+    "cassette": 3080,
+    "vinyl": 700,
+    "cd": 5880,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 9660
+  },
+  {
+   "year": 1993,
+   "values": {
+    "cassette": 3020,
+    "vinyl": 600,
+    "cd": 6920,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 10540
+  },
+  {
+   "year": 1994,
+   "values": {
+    "cassette": 2960,
+    "vinyl": 500,
+    "cd": 7960,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 11420
+  },
+  {
+   "year": 1995,
+   "values": {
+    "cassette": 2900,
+    "vinyl": 400,
+    "cd": 9000,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 12300
+  },
+  {
+   "year": 1996,
+   "values": {
+    "cassette": 2600,
+    "vinyl": 370,
+    "cd": 9800,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 12770
+  },
+  {
+   "year": 1997,
+   "values": {
+    "cassette": 2300,
+    "vinyl": 340,
+    "cd": 10600,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 13240
+  },
+  {
+   "year": 1998,
+   "values": {
+    "cassette": 2000,
+    "vinyl": 310,
+    "cd": 11400,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 13710
+  },
+  {
+   "year": 1999,
+   "values": {
+    "cassette": 1700,
+    "vinyl": 280,
+    "cd": 12200,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 14180
+  },
+  {
+   "year": 2000,
+   "values": {
+    "cassette": 1400,
+    "vinyl": 250,
+    "cd": 13000,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 14650
+  },
+  {
+   "year": 2001,
+   "values": {
+    "cassette": 1160,
+    "vinyl": 230,
+    "cd": 12300,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 13690
+  },
+  {
+   "year": 2002,
+   "values": {
+    "cassette": 920,
+    "vinyl": 210,
+    "cd": 11600,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 12730
+  },
+  {
+   "year": 2003,
+   "values": {
+    "cassette": 680,
+    "vinyl": 190,
+    "cd": 10900,
+    "download": 0,
+    "streaming": 0
+   },
+   "total": 11770
+  },
+  {
+   "year": 2004,
+   "values": {
+    "cassette": 440,
+    "vinyl": 170,
+    "cd": 10200,
+    "download": 150,
+    "streaming": 0
+   },
+   "total": 10960
+  },
+  {
+   "year": 2005,
+   "values": {
+    "cassette": 200,
+    "vinyl": 150,
+    "cd": 9500,
+    "download": 300,
+    "streaming": 0
+   },
+   "total": 10150
+  },
+  {
+   "year": 2006,
+   "values": {
+    "cassette": 164,
+    "vinyl": 160,
+    "cd": 8640,
+    "download": 940,
+    "streaming": 33
+   },
+   "total": 9937
+  },
+  {
+   "year": 2007,
+   "values": {
+    "cassette": 128,
+    "vinyl": 170,
+    "cd": 7780,
+    "download": 1580,
+    "streaming": 67
+   },
+   "total": 9725
+  },
+  {
+   "year": 2008,
+   "values": {
+    "cassette": 92,
+    "vinyl": 180,
+    "cd": 6920,
+    "download": 2220,
+    "streaming": 100
+   },
+   "total": 9512
+  },
+  {
+   "year": 2009,
+   "values": {
+    "cassette": 56,
+    "vinyl": 190,
+    "cd": 6060,
+    "download": 2860,
+    "streaming": 350
+   },
+   "total": 9516
+  },
+  {
+   "year": 2010,
+   "values": {
+    "cassette": 20,
+    "vinyl": 200,
+    "cd": 5200,
+    "download": 3500,
+    "streaming": 600
+   },
+   "total": 9520
+  },
+  {
+   "year": 2011,
+   "values": {
+    "cassette": 21,
+    "vinyl": 280,
+    "cd": 4600,
+    "download": 3767,
+    "streaming": 1240
+   },
+   "total": 9908
+  },
+  {
+   "year": 2012,
+   "values": {
+    "cassette": 21,
+    "vinyl": 360,
+    "cd": 4000,
+    "download": 4033,
+    "streaming": 1880
+   },
+   "total": 10294
+  },
+  {
+   "year": 2013,
+   "values": {
+    "cassette": 22,
+    "vinyl": 440,
+    "cd": 3400,
+    "download": 4300,
+    "streaming": 2520
+   },
+   "total": 10682
+  },
+  {
+   "year": 2014,
+   "values": {
+    "cassette": 23,
+    "vinyl": 520,
+    "cd": 2800,
+    "download": 3900,
+    "streaming": 3160
+   },
+   "total": 10403
+  },
+  {
+   "year": 2015,
+   "values": {
+    "cassette": 23,
+    "vinyl": 600,
+    "cd": 2200,
+    "download": 3500,
+    "streaming": 3800
+   },
+   "total": 10123
+  },
+  {
+   "year": 2016,
+   "values": {
+    "cassette": 24,
+    "vinyl": 740,
+    "cd": 1980,
+    "download": 3180,
+    "streaming": 5640
+   },
+   "total": 11564
+  },
+  {
+   "year": 2017,
+   "values": {
+    "cassette": 25,
+    "vinyl": 880,
+    "cd": 1760,
+    "download": 2860,
+    "streaming": 7480
+   },
+   "total": 13005
+  },
+  {
+   "year": 2018,
+   "values": {
+    "cassette": 25,
+    "vinyl": 1020,
+    "cd": 1540,
+    "download": 2540,
+    "streaming": 9320
+   },
+   "total": 14445
+  },
+  {
+   "year": 2019,
+   "values": {
+    "cassette": 26,
+    "vinyl": 1160,
+    "cd": 1320,
+    "download": 2220,
+    "streaming": 11160
+   },
+   "total": 15886
+  },
+  {
+   "year": 2020,
+   "values": {
+    "cassette": 27,
+    "vinyl": 1300,
+    "cd": 1100,
+    "download": 1900,
+    "streaming": 13000
+   },
+   "total": 17327
+  },
+  {
+   "year": 2021,
+   "values": {
+    "cassette": 27,
+    "vinyl": 1440,
+    "cd": 1040,
+    "download": 1720,
+    "streaming": 14800
+   },
+   "total": 19027
+  },
+  {
+   "year": 2022,
+   "values": {
+    "cassette": 28,
+    "vinyl": 1580,
+    "cd": 980,
+    "download": 1540,
+    "streaming": 16600
+   },
+   "total": 20728
+  },
+  {
+   "year": 2023,
+   "values": {
+    "cassette": 29,
+    "vinyl": 1720,
+    "cd": 920,
+    "download": 1360,
+    "streaming": 18400
+   },
+   "total": 22429
+  },
+  {
+   "year": 2024,
+   "values": {
+    "cassette": 29,
+    "vinyl": 1860,
+    "cd": 860,
+    "download": 1180,
+    "streaming": 20200
+   },
+   "total": 24129
+  },
+  {
+   "year": 2025,
+   "values": {
+    "cassette": 30,
+    "vinyl": 2000,
+    "cd": 800,
+    "download": 1000,
+    "streaming": 22000
+   },
+   "total": 25830
+  }
+ ]
+}

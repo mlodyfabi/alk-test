@@ -1,0 +1,180 @@
+{
+ "meta": {
+  "disclaimer": "Dane fikcyjne, wyłącznie do celów edukacyjnych. Liczby nie odzwierciedlają rzeczywistego rynku.",
+  "currency": "PLN"
+ },
+ "rates": {
+  "transport_per_km": 3.2,
+  "lodging_per_room_night": 320,
+  "per_diem_per_person_day": 90,
+  "insurance_per_show": 600,
+  "agent_commission": 0.1,
+  "manager_commission": 0.15,
+  "merch_spend_per_head": 9,
+  "merch_margin": 0.55
+ },
+ "merch_mix": [
+  {
+   "id": "tshirts",
+   "label": "Koszulki",
+   "share": 50
+  },
+  {
+   "id": "vinyl",
+   "label": "Winyle",
+   "share": 25
+  },
+  {
+   "id": "posters",
+   "label": "Plakaty",
+   "share": 15
+  },
+  {
+   "id": "other",
+   "label": "Inne",
+   "share": 10
+  }
+ ],
+ "venue_tiers": [
+  {
+   "id": "club",
+   "label": "Klub",
+   "kind": "ticketed",
+   "capacity": 400,
+   "ticket_price": 80,
+   "venue_cut": 0.15,
+   "production_cost": 1500,
+   "flat_fee": 0
+  },
+  {
+   "id": "theatre",
+   "label": "Teatr",
+   "kind": "ticketed",
+   "capacity": 1200,
+   "ticket_price": 140,
+   "venue_cut": 0.12,
+   "production_cost": 4000,
+   "flat_fee": 0
+  },
+  {
+   "id": "arena",
+   "label": "Hala",
+   "kind": "ticketed",
+   "capacity": 8000,
+   "ticket_price": 220,
+   "venue_cut": 0.1,
+   "production_cost": 25000,
+   "flat_fee": 0
+  },
+  {
+   "id": "festival",
+   "label": "Festiwal",
+   "kind": "flat_fee",
+   "capacity": 20000,
+   "ticket_price": 0,
+   "venue_cut": 0,
+   "production_cost": 3000,
+   "flat_fee": 40000
+  }
+ ],
+ "crew_presets": [
+  {
+   "id": "duo",
+   "label": "Duo + tech",
+   "people": 3,
+   "rooms": 2
+  },
+  {
+   "id": "band",
+   "label": "Zespół 5 osób + ekipa",
+   "people": 9,
+   "rooms": 5
+  },
+  {
+   "id": "full",
+   "label": "Pełna produkcja",
+   "people": 22,
+   "rooms": 12
+  }
+ ],
+ "tours": [
+  {
+   "id": "club-run",
+   "label": "Klubowa trasa po Polsce",
+   "stops": [
+    {
+     "city": "Warszawa",
+     "tier": "club",
+     "distance_km": 0,
+     "nights": 1
+    },
+    {
+     "city": "Łódź",
+     "tier": "club",
+     "distance_km": 135,
+     "nights": 1
+    },
+    {
+     "city": "Wrocław",
+     "tier": "club",
+     "distance_km": 215,
+     "nights": 1
+    },
+    {
+     "city": "Kraków",
+     "tier": "club",
+     "distance_km": 270,
+     "nights": 1
+    },
+    {
+     "city": "Gdańsk",
+     "tier": "club",
+     "distance_km": 570,
+     "nights": 1
+    }
+   ]
+  },
+  {
+   "id": "theatre-tour",
+   "label": "Teatry i festiwal",
+   "stops": [
+    {
+     "city": "Warszawa",
+     "tier": "theatre",
+     "distance_km": 0,
+     "nights": 1
+    },
+    {
+     "city": "Poznań",
+     "tier": "theatre",
+     "distance_km": 310,
+     "nights": 1
+    },
+    {
+     "city": "Katowice",
+     "tier": "theatre",
+     "distance_km": 380,
+     "nights": 1
+    },
+    {
+     "city": "Mrągowo",
+     "tier": "festival",
+     "distance_km": 470,
+     "nights": 1
+    }
+   ]
+  },
+  {
+   "id": "arena-night",
+   "label": "Jedna hala",
+   "stops": [
+    {
+     "city": "Kraków",
+     "tier": "arena",
+     "distance_km": 0,
+     "nights": 1
+    }
+   ]
+  }
+ ]
+}
