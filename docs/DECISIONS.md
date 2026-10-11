@@ -12,3 +12,4 @@
 - Merch is not subject to agent/manager commission or venue cut (simplification).
 - Per diem covers `nights + 1` days (travel day plus nights).
 - Currency PLN for royalty/tour, USD for the fictional markets.
+- Visual redesign (coral/blue gradient, wide-tracked condensed headings, vertical rail nav, outlined module numbers) follows a user-supplied reference image; Barlow Condensed loaded from Google Fonts with system fallbacks.

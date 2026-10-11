@@ -1,20 +1,20 @@
-/** Colour tokens mirrored in styles/global.css (CSS variables). Series colours reach WCAG AA (>=3:1 for graphics) on --bg. */
+/** Colour tokens mirrored in styles/global.css (CSS variables). Series colours reach >=3:1 contrast on the dark panel (--bg). */
 export const SERIES = [
-  '#f0b04a', // amber
-  '#d9703d', // copper
-  '#5bb8b0', // teal
-  '#b79af0', // lilac
-  '#d8cba3', // sand
-  '#8fc06a', // moss
-  '#e5798f', // rose
+  '#ff7a6b', // coral
+  '#8d8bff', // periwinkle
+  '#f7a072', // apricot
+  '#5cd0e0', // cyan
+  '#f283c6', // pink
+  '#ffd9a8', // cream
+  '#6ee7b7', // mint
 ] as const;
 
 export const COLORS = {
-  gross: '#f0b04a',
-  deduction: '#c0643a',
-  result: '#5bb8b0',
-  warn: '#ff6b6b',
-  positive: '#8fc06a',
+  gross: '#8d8bff',
+  deduction: '#ff7a6b',
+  result: '#6ee7b7',
+  warn: '#ffd23f',
+  positive: '#6ee7b7',
 } as const;
 
 export function seriesColor(i: number): string {
