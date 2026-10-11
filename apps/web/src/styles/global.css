@@ -820,3 +820,44 @@ th {
     transition: width 0.25s ease;
   }
 }
+
+/* contrast backings for text that sits directly on the gradient (WCAG AA) */
+.hero {
+  background: rgba(23, 19, 47, 0.78);
+  padding: var(--s3) var(--s4);
+}
+.hero .tagline {
+  margin: var(--s2) 0 0;
+  text-shadow: none;
+}
+.tagline {
+  text-shadow: none;
+}
+.section-title {
+  background: rgba(23, 19, 47, 0.82);
+  display: inline-block;
+  padding: 6px 14px;
+  text-shadow: none;
+}
+.app-footer {
+  background: rgba(23, 19, 47, 0.82);
+  padding: var(--s2) var(--s3);
+  text-shadow: none;
+  margin-top: var(--s4);
+}
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 50;
+  background: #fff;
+  color: #1a1033;
+  padding: 8px 14px;
+  font-weight: 700;
+}
+.skip-link:focus {
+  top: 40px;
+}
+main:focus {
+  outline: none;
+}

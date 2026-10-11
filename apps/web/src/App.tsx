@@ -40,9 +40,12 @@ function Shell() {
         <span className="blob blob-b" />
         <span className="dots" />
       </div>
-      <div className="disclaimer-bar" role="note">
+      <a className="skip-link" href="#main">
+        {pl.skip}
+      </a>
+      <aside className="disclaimer-bar" aria-label={pl.disclaimerLabel}>
         <span aria-hidden="true">●</span> {pl.disclaimerBar}
-      </div>
+      </aside>
       <div className="layout">
         <nav className="rail" aria-label={pl.nav.label}>
           {TABS.map((t) => (
@@ -59,10 +62,12 @@ function Shell() {
         </nav>
         <div className="content">
           <header className="app-header">
-            <h1>
-              <span className="accent">Music</span>
-              <span>Money Lab</span>
-            </h1>
+            <div className="hero">
+              <h1>
+                <span className="accent">Music</span>
+                <span>Money Lab</span>
+              </h1>
+            </div>
             <div className="artist-picker">
               <Select
                 label={pl.artist.label}
@@ -79,8 +84,7 @@ function Shell() {
               <small>{pl.artist.hint}</small>
             </div>
           </header>
-          <p className="tagline">{pl.tagline}</p>
-          <main id="main" data-num={num}>
+          <main id="main" tabIndex={-1} data-num={num}>
             <div hidden={tab !== 'timeline'}>
               <TimelineModule />
             </div>

@@ -2,6 +2,8 @@
 export const pl = {
   appName: 'Music Money Lab',
   tagline: 'Zobacz, jak naprawdę płyną pieniądze w muzyce.',
+  skip: 'Przejdź do treści',
+  disclaimerLabel: 'Informacja o danych',
   disclaimerBar: 'Dane fikcyjne, wyłącznie do celów edukacyjnych',
   nav: {
     label: 'Moduły',
