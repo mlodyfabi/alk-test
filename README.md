@@ -3,6 +3,14 @@
 Interactive web app that shows how money flows in the music industry. Built for ALK classes.
 **All data is fictional and for education only.** Requirements: [docs/PRD.md](docs/PRD.md).
 
+**Live:** https://mlodyfabi.github.io/alk-test/ (GitHub Pages)
+
+![Format Timeline](docs/screenshots/timeline.png)
+
+| Royalty Splitter                         | Tour P&L                           | Market Compare                         |
+| ---------------------------------------- | ---------------------------------- | -------------------------------------- |
+| ![Royalty](docs/screenshots/royalty.png) | ![Tour](docs/screenshots/tour.png) | ![Market](docs/screenshots/market.png) |
+
 Modules: Format Timeline, Royalty Splitter, Tour P&L, Market Compare. UI is in Polish.
 
 ## Run locally
